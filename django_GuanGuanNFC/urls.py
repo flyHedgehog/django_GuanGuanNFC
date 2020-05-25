@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from guan import views as GuanViews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('DaoUserInfo/insert/',GuanViews.DaoUserInfoInsert),
+    path('DaoUserInfo/loadQuery/',GuanViews.DaoUserInfoLoadQuery),
 ]

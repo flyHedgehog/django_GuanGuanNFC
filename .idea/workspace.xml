@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec780137-4f95-4301-8dcb-10a19d9ea9be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guan/Serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/migrations/0002_auto_20200525_0843.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_GuanGuanNFC/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_GuanGuanNFC/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guan/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/guan/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guan/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/guan/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_GuanGuanNFC/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_GuanGuanNFC/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +113,7 @@
       <workItem from="1588669975262" duration="144000" />
       <workItem from="1588834048536" duration="1988000" />
       <workItem from="1590131963238" duration="453000" />
-      <workItem from="1590389099111" duration="11696000" />
+      <workItem from="1590389099111" duration="11947000" />
     </task>
     <servers />
   </component>
