@@ -25,7 +25,7 @@ SECRET_KEY = 'p2t^#5*7___%z8w8de^9qnu!^#9p(5#0wmj7(bz^fdu39nnbad'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'guan'
+    'guan',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
