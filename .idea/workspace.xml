@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec780137-4f95-4301-8dcb-10a19d9ea9be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guan/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django_GuanGuanNFC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_GuanGuanNFC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_GuanGuanNFC/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_GuanGuanNFC/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_GuanGuanNFC/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_GuanGuanNFC/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +47,13 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,7 +111,9 @@
       <option name="presentableId" value="Default" />
       <updated>1588669924184</updated>
       <workItem from="1588669975262" duration="144000" />
-      <workItem from="1588834048536" duration="1740000" />
+      <workItem from="1588834048536" duration="1988000" />
+      <workItem from="1590131963238" duration="453000" />
+      <workItem from="1590389099111" duration="11947000" />
     </task>
     <servers />
   </component>
@@ -133,9 +128,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="414" y="173" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1588834111695" />
-    <state x="562" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1588834049194">
+    <state x="562" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1590389101353">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="562" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1588834049194" />
+    <state x="562" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1590389101353" />
   </component>
 </project>
