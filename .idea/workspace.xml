@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec780137-4f95-4301-8dcb-10a19d9ea9be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/guan/migrations/0003_auto_20200529_1244.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guan/migrations/0004_auto_20200529_1430.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guan/migrations/0005_auto_20200529_1437.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guan/migrations/0006_auto_20200604_1124.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guan/migrations/0007_auto_20200604_1506.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guan/migrations/0008_auto_20200604_1822.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_GuanGuanNFC/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_GuanGuanNFC/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guan/Serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/guan/Serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guan/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/guan/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guan/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/guan/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +123,13 @@
       <workItem from="1588669975262" duration="144000" />
       <workItem from="1588834048536" duration="1988000" />
       <workItem from="1590131963238" duration="453000" />
-      <workItem from="1590389099111" duration="11947000" />
+      <workItem from="1590389099111" duration="12053000" />
+      <workItem from="1590456068538" duration="202000" />
+      <workItem from="1590677190053" duration="515000" />
+      <workItem from="1590733346768" duration="28057000" />
+      <workItem from="1591084672195" duration="372000" />
+      <workItem from="1591256635006" duration="20979000" />
+      <workItem from="1591337490484" duration="7784000" />
     </task>
     <servers />
   </component>
@@ -124,13 +140,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="509" y="223" key="#SQL_Dialects" timestamp="1590768830378">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="509" y="223" key="#SQL_Dialects/0.23.1680.1027@0.23.1680.1027" timestamp="1590768830378" />
     <state x="414" y="173" key="SettingsEditor" timestamp="1588834111695">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="414" y="173" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1588834111695" />
-    <state x="562" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1590389101353">
+    <state x="562" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1591337593635">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="562" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1590389101353" />
+    <state x="562" y="354" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1591337593635" />
+    <state x="786" y="304" width="670" height="676" key="search.everywhere.popup" timestamp="1590753916369">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="786" y="304" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1590753916369" />
   </component>
 </project>
