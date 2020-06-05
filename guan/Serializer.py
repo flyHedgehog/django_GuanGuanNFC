@@ -19,7 +19,7 @@ class ActivityModelSerializer(serializers.ModelSerializer):
 class ActStaModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = ActSta
-        fields = ('nid','act_id','start_time','end_time','moment_text','is_shared')
+        fields = ('nid','act_id','start_time','end_time','moment_text','is_shared','shared_time')
 
 class BoxModelSerializer(serializers.ModelSerializer):
     class Meta:
@@ -27,9 +27,10 @@ class BoxModelSerializer(serializers.ModelSerializer):
         fields = ('nid','user_id','nfc','box_name','box_pos')
 
 class BoxContentModelSerializer(serializers.ModelSerializer):
+    box_name = serializers.CharField(source='box_id.box_name')
     class Meta:
         model = BoxContent
-        fields = ('nid','box_id','thing_name','thing_num')
+        fields = ('box_name','thing_name','thing_num')
 
 class FriendModelSerializer(serializers.ModelSerializer):
     class Meta:
@@ -37,11 +38,13 @@ class FriendModelSerializer(serializers.ModelSerializer):
         fields = ('nid','user_id','friend_id')
 
 class ApplicationModelSerializer(serializers.ModelSerializer):
+    user_name = serializers.CharField(source='from_id.user_name')
     class Meta:
         model = Application
-        fields = ('nid','from_id','to_id','content','is_processed')
+        fields = ('from_id','content','created_time')
 
 class PushNoteModelSerializer(serializers.ModelSerializer):
+    author_name = serializers.CharField(source='author_id.user_name')
     class Meta:
         model = PushNote
-        fields = ('nid','author_id','title','summary','contents')
+        fields = ('nid','author_name','title','summary','contents')
